@@ -1,1 +1,4 @@
-# 123
+# cc
+## My first c program
+
+**main**函数
