@@ -1,10 +1,10 @@
-#include<stdio.h>
+#include <stdio.h>
 int main(void)
 {
     int h, t;
     printf("Enter t:\n");
-    scanf("%d",&t);
-    h=1.0/2*10*t*t;
-    printf("h = %d,n",h);
+    scanf("%d", &t);
+    h = 1.0 / 2 * 10 * t * t;
+    printf("h = %d,n", h);
     return 0;
 }
