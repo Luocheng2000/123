@@ -1,10 +1,9 @@
 #include <stdio.h>
 int main(void)
 {
-    int h, t;
-    printf("Enter t:\n");
-    scanf("%d", &t);
-    h = 1.0 / 2 * 10 * t * t;
-    printf("h = %d,n", h);
+    int i;
+    i=11%(-5);
+    printf("i is %d\n",i);
+    
     return 0;
 }
