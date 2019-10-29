@@ -2,10 +2,14 @@
 
 int main(void)
 {
-    int distance, time;
-    printf("Enter time:\n");
-    scanf("%d", &time);
-    distance = 1.0 / 2 * 10 * time * time;
-    printf("distance is %d\n", distance);
+    int a, b, c, d, sum;
+    float aver;
+    a=10;
+    b=20;
+    c=30;
+    d=40;
+    sum = a + b + c + d;
+    aver = sum / 4.0f;
+    printf("sum is %d, average is %.1f\n", sum,aver);
     return 0;
 }
