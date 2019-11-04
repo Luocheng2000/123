@@ -2,7 +2,7 @@
 
 int main(void)
 {
-    feoat x, y;
+    int x, y;
     printf("输入用户月用电量(千瓦时）\n");
     scanf("%f", &x) ;
     if(x<=50){
