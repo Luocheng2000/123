@@ -1,18 +1,18 @@
-#include<stdio.h>
+#include <stdio.h>
 
-int main (void)
+int main(void)
 {
     int x;
-    printf("Enter x:\n" );
-    scanf("%d",&x);
-    if(x<0)
-    {x=(-x);
+    printf("Enter x:\n");
+    scanf("%d", &x);
+    if (x < 0)
+    {
+        x = (-x);
     }
     else
     {
-        x=x;
+        x = x;
     }
-    printf("x is %d\n" ,x);
+    printf("x is %d\n", x);
     return 0;
-
 }
