@@ -2,10 +2,12 @@
 
 int main(void)
 {
-    int grade
-        printf("Enter grade:\n");
-    scanf("%d", &grade);
+    int score,grade;
+    printf("Enter score:\n");
+    scanf("%d", &score);
 
+    grade = score ;
+    
     switch (grade)
     {
     case 0:
@@ -26,3 +28,5 @@ int main(void)
     default:
         printf("Illegal garde\n"); break;
     }
+    return 0;
+}
