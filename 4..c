@@ -6,7 +6,11 @@ int main(void)
     printf("Enter score:\n");
     scanf("%d", &score);
 
-    grade = score ;
+    if(score >=0&& score <60)
+    grade =0;
+    else
+    
+    grade = (score-50)%10 ;
     
     switch (grade)
     {
