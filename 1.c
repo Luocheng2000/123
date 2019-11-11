@@ -5,14 +5,7 @@ int main(void)
     int x;
     printf("Enter x:\n");
     scanf("%d", &x);
-
-    if ((((x % 4) == 0) && ((x % 100) != 0) || (x % 400) == 0))
-    {
-        printf("yes\n");
-    }
-    else
-    {
-        printf("no\n");
-    }
+    x=(x>0)?x:(-x);
+    printf("x is %d\n",x);
     return 0;
 }
