@@ -2,17 +2,15 @@
 
 int main(void)
 {
-    int x, y;
-    printf("输入用户月用电量(千瓦时）\n");
-    scanf("%f", &x);
-    if (x <= 50)
+    int n, sum = 1;
+    int i;
+    printf("Enter n:\n");
+    scanf("%d", &n);
+
+    for (i = 1; i <= n; i++)
     {
-        y = 0.53 * x;
+        sum = sum * i;
     }
-    else
-    {
-        y = 0.58 * x - 2.5;
-    }
-    printf("应支付的电费%f(元）", y);
+    printf("sum is %d\n", sum);
     return 0;
 }
