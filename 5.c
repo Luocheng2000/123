@@ -7,7 +7,7 @@ int main(void)
     switch (x)
     {
     case 1:
-        printf(" apple is 3yuan/kg\n");
+        printf(" apple is 3.0yuan/kg\n");
         break;
     case 2:
         printf("pear is 2.5yuan/kg\n");
