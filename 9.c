@@ -1,16 +1,17 @@
 #include <stdio.h>
 int main(void)
 {
-    int x = 1, i, n;
-    float y, sum = 0;
+    int i, n;
+    double x = 1, sum = 0;
     printf("Enter n:\n");
     scanf("%d", &n);
+    
     for (i = 1; i <= n; i++)
     {
-        x *= i;
-        y = 1.0 / x;
-        sum += y;
+        x = x / i;
+        sum += x;
     }
-    printf("sum is %f\n", sum);
+    sum += 1;
+    printf("sum = %.5lf\n", sum);
     return 0;
 }
