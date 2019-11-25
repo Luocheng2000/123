@@ -6,7 +6,7 @@ void main(void)
     for (i = 1; i <= 5; i++)
     {
         if (3 == i)
-            continue;
+            break;
         printf("%d", i);
     }
     printf("\n");
