@@ -1,16 +1,14 @@
 #include <stdio.h>
-int main(void)
-{
-    int sum, n, term;
-    printf("Enter n:\n");
-    scanf("%d", &n);
 
-    while (n > 0)
+void main(void)
+{
+    int i;
+    for (i = 1; i <= 5; i++)
     {
-        term = n % 10;
-        sum += term;
-        n = n / 10;
+        if (3 == i)
+            continue;
+        printf("%d", i);
     }
-    printf("sum = %d\n", sum);
+    printf("\n");
     return 0;
 }
