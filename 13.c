@@ -1,5 +1,5 @@
 #include <stdio.h>
-int main()
+int main(void)
 {
     int i, j, k;
     printf("百元买百鸡的问题所有可能的解如下：\n");
