@@ -37,5 +37,5 @@ void sort(int x[], int n)
             x[j] = x[k];
             x[k] = tmp;
         }
-    }
+    }  
 }
