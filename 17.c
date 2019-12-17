@@ -19,18 +19,23 @@ int main(void)
 }
 void sort(int x[], int n)
 {
-    int i, j, tmp;
+    int i, j, k, tmp;
     for (i = 0; i < n - 1; i++)
     {
+        k = i;
 
         for (j = i + 1; j < n; j++)
         {
-            if (x[j] > x[i])
+            if (x[j] > x[k])
             {
-                tmp = x[j];
-                x[j] = x[i];
-                x[i] = tmp;
+                k = j;
             }
+        }
+        if (k != i)
+        {
+            tmp = x[j];
+            x[j] = x[k];
+            x[k] = tmp;
         }
     }
 }
